@@ -1,0 +1,35 @@
+{
+  "breadcrumbs.enabled": true,
+  "editor.autoIndent": true,
+  "editor.codeLens": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorStyle": "line",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "editor.maxTokenizationLineLength": 5000,
+  "editor.minimap.renderCharacters": false,
+  "editor.multiCursorModifier": "alt",
+  "editor.renderLineHighlight": "all",
+  "editor.rulers": [
+    80,
+    120,
+    160
+  ],
+  "editor.suggest.localityBonus": true,
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "emmet.syntaxProfiles": {
+    "blade": "html"
+  },
+  "html.format.endWithNewline": true,
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "html.format.wrapLineLength": 80,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "search.showLineNumbers": true,
+  "zenMode.centerLayout": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}
