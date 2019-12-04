@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="ie=edge"
+  >
+  <title>Position</title>
+  <style>
+    #d1 {
+      background-color: yellow;
+      border: 5px black solid;
+      padding: 10px;
+      margin: 15px;
+      /* height: 150px; */
+      width: 500px;
+      display: flow-root;
+    }
+
+    .positioned {
+      float: left;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="d1">
+    <div
+      class="positioned"
+      style="top: 0; left: 0;"
+    >TL</div>
+    <div
+      class="positioned"
+      id="tr"
+      style="top: 0; right: 0;"
+    >TR</div>
+    <div
+      class="positioned"
+      style="bottom: 0; left: 0;"
+    >BL</div>
+    <div
+      class="positioned"
+      style="bottom: 0; right: 0;"
+    >BR</div>
+  </div>
+</body>
+
+</html>

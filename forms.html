@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="ie=edge"
+  >
+  <title>Document</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Contatto</legend>
+      <div>
+        <label>Name
+          <input
+            autofocus
+            type="text"
+            name="name"
+            value="Pippo"
+          >
+        </label>
+      </div>
+      <div>
+        <label for="email-input">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email-input"
+        >
+      </div>
+      <div>
+        <label>Password <input
+            type="password"
+            name="pwd"
+          >
+      </div>
+      <div>
+        <label>Cerca: <input
+            type="search"
+            name="s"
+          >
+      </div>
+      <div>
+        <label>Telefono: <input
+            type="tel"
+            name="tel"
+          >
+      </div>
+      <div>
+        <label>Numero: <input
+            type="number"
+            name="nr"
+            min="-2"
+            max="10"
+            step="0.5"
+          ></label>
+      </div>
+      <div>
+        <label>Compleanno <input type="date"></label>
+      </div>
+      <div>
+        <label>Appuntamento <input type="datetime-local"></label>
+      </div>
+      <div>
+        <label>Color <input
+            type="color"
+            value="#ff0000"
+            name="c"
+          ></label>
+      </div>
+      <div>
+        <input
+          type="hidden"
+          value="pippo"
+          name="hidden"
+        >
+      </div>
+      <div>
+        <label>Scelta <select
+            name="book"
+            multiple
+          >
+            <optgroup label="Libri">
+              <option value="book-1">Libro 1</option>
+              <option
+                value="book-2"
+                selected
+              >Libro 2</option>
+              <option value="book-3">Libro 3</option>
+            </optgroup>
+            <optgroup label="Animali">
+              <option value="animal-1">Animale 1</option>
+              <option value="animal-2">Animale 2</option>
+              <option value="animal-3">Animale 3</option>
+            </optgroup>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label>Opzione 1 <input
+            type="checkbox"
+            name="option"
+            value="opt-1"
+          ></label>
+        <label>Opzione 2 <input
+            type="checkbox"
+            name="option"
+            value="opt-2"
+          ></label>
+        <label>Opzione 3 <input
+            type="checkbox"
+            name="option"
+            value="opt-3"
+          ></label>
+      </div>
+      <div>
+        <label>Opzione 1 <input
+            type="radio"
+            name="option"
+            value="opt-1"
+          ></label>
+        <label>Opzione 2 <input
+            type="radio"
+            name="option"
+            value="opt-2"
+          ></label>
+        <label>Opzione 3 <input
+            type="radio"
+            name="option"
+            value="opt-3"
+          ></label>
+      </div>
+      <div>
+        <label for="message-area">Message</label>
+        <textarea
+          cols="30"
+          rows="10"
+          name="message"
+          id="message-area"
+          placeholder="Inserisci il messaggio"
+        ></textarea>
+      </div>
+      <div>
+        <button type="submit">Invia</button>
+        <button type="reset">Cancella</button>
+        <button type="button">Non fa nulla</button>
+      </div>
+    </fieldset>
+  </form>
+</body>
+
+</html>

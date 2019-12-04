@@ -1,0 +1,46 @@
+.box {
+  background-color: gainsboro;
+  text-align: center;
+}
+
+header {
+  padding: 30px;
+  margin-bottom: 8px;
+}
+
+nav {
+  padding: 20px;
+  margin-bottom: 8px;
+}
+
+aside,
+main {
+  float: left;
+  padding: 50px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+aside {
+  width: 20%;
+}
+
+main {
+  width: 60%;
+  border-left: 8px solid white;
+  border-right: 8px solid white;
+}
+
+footer {
+  clear: left;
+  /* margin-top: 8px; */
+  padding: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  main,
+  aside {
+    border: none;
+    width: 100%;
+  }
+}

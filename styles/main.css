@@ -1,3 +1,33 @@
 h1 {
   color: red;
 }
+
+p::first-letter {
+  font-style: italic;
+}
+
+#first-paragraph {
+  font-weight: bold;
+}
+
+.odd-item {
+  color: blue;
+}
+
+.even-item {
+  color: green;
+}
+
+li,
+th {
+  color: yellow;
+}
+
+td:first-child {
+  color: red;
+}
+
+button:hover,
+button:focus {
+  background-color: yellow;
+}
