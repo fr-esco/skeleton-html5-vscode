@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="ie=edge"
+  >
+  <title>Story generator</title>
+  <style>
+    body form#my-form output[name$="story"] {
+      background-color: yellow;
+    }
+
+  </style>
+  <script src="scripts/story.js"></script>
+</head>
+
+<body>
+  <form id="my-form">
+    <label>Nome: <input name="protagonista"></label>
+    <fieldset>
+      <legend>Unità di misura</legend>
+      <label>
+        <input
+          type="radio"
+          name="unit"
+          value="US"
+          checked
+        > US</label>
+      <label>
+        <input
+          type="radio"
+          name="unit"
+          value="UK"
+        > UK</label>
+    </fieldset>
+    <button type="submit">Genera storia</button>
+    <output name="story"></output>
+  </form>
+
+</body>
+
+</html>
