@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="ie=edge"
+  >
+  <title>Dataset</title>
+</head>
+
+<body>
+  <ul>
+    <li data-animal-id="1">Leone</li>
+    <li>Cane</li>
+  </ul>
+  <script>
+    console.log(
+      JSON.parse(document.querySelector('li').dataset.animalId)
+    )
+    document.querySelectorAll('li').item(1)
+      .dataset.animalId = JSON.stringify(2)
+  </script>
+</body>
+
+</html>

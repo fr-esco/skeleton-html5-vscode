@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="ie=edge"
+  >
+  <title>Geolocation</title>
+  <style>
+    .hidden {
+      display: none;
+    }
+
+    .error {
+      color: red;
+    }
+
+  </style>
+</head>
+
+<body>
+  <button id="btn">Posizione</button>
+  <p
+    class="hidden"
+    id="link-container"
+  >
+    Visualizza la tua posizione <a
+      target="_blank"
+      id="link"
+    >qui</a>
+  </p>
+  <p
+    id="error-container"
+    class="hidden error"
+  > </p>
+  <script src="scripts/geolocation.js"></script>
+</body>
+
+</html>
